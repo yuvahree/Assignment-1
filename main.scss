@@ -146,10 +146,13 @@ p1{
 }
 .center h7{
     text-align: center;
-    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
     width: 60%;
+    height: 80px;
     border: 3px solid white;
     padding: 10px;
+    position: absolute;
 }
 img{
     max-width: 100%;
@@ -172,10 +175,16 @@ img{
 .gallery-item{
     padding: 0 10px 10px;
 }
+.col .gallery-item{
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
 .outer-footer{
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     color: white;
-    font-size: 18px;
-    background-color: grey;
+    font-size: 16px;
+    background-color: #282828;
 }
